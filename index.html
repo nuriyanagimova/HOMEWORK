@@ -25,7 +25,7 @@
             <img src="./assets/images/image.png" alt="image">
         </section>
             
-            
+        <section>
             <h2>Rates</h2>
             <p>Failure will never overtake me if my determination to succeed is strong enough.</p>
             <table>
@@ -78,69 +78,71 @@
             </ul>
                 
 
-            <section>
-                <div>
-                    <label for="userFullName"></label>
+            
+            <form>
+                    
                     <input id="userFullName" type="text" name="" placeholder="Full Name*">
-                </div>
-                <div>
-                    <label for="userEmail"></label>
                     <input id="userEmail" type="text" name="email" placeholder="Email*">
-                    <label for="userPassword"></label>
                     <input id="userPassword" type="text" name="password" placeholder="Password*">
-                </div>
-                <div>
-                    <label for="userDateBirth"></label>
                     <input id="userDateBirth" type="number" name="dateBirth" placeholder="Date of Birth">
-
-                 <select name="country" placeholder="Country">
-                     <option selected disabled>Country</option>
-                     <option value="France">France</option>
-                     <option value="Japon">Japon</option>
-                     <option value="Chine">Chine</option>
-                     <option value="Italie">Italie</option>
-                </select>
-                </div>
-                <div>
-                    <label>
-                        <input type="radio" name="techno">
+                
+                
+                    <select>
+                        <option selected disabled>Country</option>
+                        <option value="France">France</option>
+                        <option value="Japon">Japon</option>
+                        <option value="Italie">Italie</option>
+                    </select>
+                    
+                    <label for="front">
+                        <input id="front" type="radio" name="techno">
                         FRONTEND
-                        <input type="radio" name="techno">
+                    </label>
+                    <label for="back">
+                        <input id="back" type="radio" name="techno">
                         BACKEND
                     </label>
-                </div>
-            </section>
-                <fieldset>
-                    <legend>Favorite Technologies</legend>
-                    <label for="">
-                        <input type="checkbox" name="html">
-                        HTML
-                    </label>
-                    <label>
-                        <input type="checkbox" name="css">
-                        CSS
-                    </label>
-                    <label for="">
-                        <input type="checkbox" name="react">
-                        React
-                    </label>
-                    <label for="">
-                        <input type="checkbox" name="components">
-                        Styled componets
-                    </label>
                     
-                </fieldset>
-                
-                <textarea name="text" id="" placeholder="Something else about you"></textarea>
-                <input type="submit">
-            </form>
-                
+                    <fieldset>
+                        <legend>Favorite Technologies</legend>
+                        <label for="html">
+                            <input id="html" type="checkbox" name="html">
+                            HTML
+                        </label>
+                        <label for="css">
+                            <input id="css" type="checkbox" name="css">
+                            CSS
+                        </label>
+                        <label for="react">
+                            <input id="react"  type="checkbox" name="react">
+                            React
+                        </label>
+                        <label for="components">
+                            <input id="components" type="checkbox" name="components">
+                            Styled componets
+                        </label>
+                        
+                    </fieldset>
+                    
+                    <textarea  placeholder="Something else about you"></textarea>
+                    <input type="submit">
+                </form>
+            </section>        
             <footer>
-                <span>Copyright © 2023. All rights reserved.</span>
+                    <span>Copyright © 2023. All rights reserved.</span>
+           
             </footer>
+                
+        </body>
+    </html>
+               
 
-    </body>
-</html>
+            
+               
+                
+        
+
+
             
                 
 

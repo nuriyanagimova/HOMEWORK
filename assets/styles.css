@@ -62,12 +62,81 @@ button {
     text-transform: uppercase;
 }
     
+.rates-section {
+   background-color:#f9fafc ; 
+   padding: 100px 0;
+}
     
+.title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size:  32px;
+    line-height: 42px;
+    color: #363940;
+}
+.table {
+    border-collapse: collapse ;
+}
+th, td {
+    border: 1px solid #95a1bb;/* Границы таблицы*/
+    padding: 15px 0; /*Отступы внутри ячейки*/
+    width: 240px;/*Ширина Ячейки*/
+    text-align: center;
+    font-weight: 400px
+}
     
+.text {
+    
+    padding: 40px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    text-align: center;
+    color: #95a1bb;
+}
+
+.table-title {
+    color: #363940;
+    font-weight: 500;
+    font-size: 22px;
+    font-size: 18px;
+}
+.table-subtitle {
+    color: #363940;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding-left: 20px;
+}
 
 
+.table-button {
+    border: 1px solid #0a61f7;
+    border-radius: 4px;
+    color: #0a61f7;
+    width: 140px;
+    padding: 8px 0;
+    font-size: 12px;
+    font-weight: 500 ;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    line-height: 1ç.6px; ;
+}
 
 
+.table-button.active{
+    background-color: #0a61f7;
+    color: #fff;
+}
+
+.table-subtitle.gray {
+    background-color: #f9fafc;
+    color: #95a1bb;
+   font-weight: 300px;
+    
+}
 
     
 

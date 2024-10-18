@@ -61,19 +61,30 @@ button {
     letter-spacing: 1.4px;
     text-transform: uppercase;
 }
+.title {
+    
+    font-weight: 500;
+    font-size:  32px;
+    line-height: 42px;
+    color: #363940;
+}
+
+.text {
+    
+    
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #95a1bb;
     
 .rates-section {
    background-color:#f9fafc ; 
    padding: 100px 0;
 }
     
-.title {
-    margin-bottom: 20px;
-    font-weight: 500;
-    font-size:  32px;
-    line-height: 42px;
-    color: #363940;
-}
+
 .table {
     border-collapse: collapse ;
 }
@@ -85,15 +96,7 @@ th, td {
     font-weight: 400px
 }
     
-.text {
-    
-    padding: 40px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 137%;
-    text-align: center;
-    color: #95a1bb;
+
 }
 
 .table-title {
@@ -134,9 +137,106 @@ th, td {
 .table-subtitle.gray {
     background-color: #f9fafc;
     color: #95a1bb;
-   font-weight: 300px;
+    font-weight: 300px;
     
+}
+.table-footer {
+    
+    padding: 30px 0;
+}
+.create-account-section {
+   padding: 100px 0;
+}
+.list-item {
+    list-style-image: url(../assets/images/Check.svg);
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: #363940;
+
+}   
+
+.rates-section {
+    background-color: #f9fafc;
+    padding: 100px 0;
+}
+.rates-section .title {
+    margin-bottom: 20px;
+}
+.create-account-section {
+    padding: 100px 0;
+}
+.create-account-section .title {
+    margin-bottom: 50px;
+
+}
+
+.rates-section{
+    background-color: #f9fafc;
+    padding: 100px 0;
+}
+
+.rates-section .title {
+    margin-bottom: 20px;
+}
+
+.rates-section .text {
+    margin-bottom: 40px;
+}
+
+.create-account-section {
+    padding: 100px 0;
+}
+
+.create-account-section .title {
+    margin-bottom: 50px;
+}
+
+.create-account-section .text {
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+.list-item {
+    list-style-image: url(../assets/images/Check.svg);
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: #363940;
+}
+input, select, fieldset, textarea, label, legend, input::placeholder, select::placeholder, textarea::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95a1bb;
+    font-family: inherit;
+}
+
+input, select, fieldset, textarea {
+    border-radius: 4px;
+    border: solid 1px #95a1bb;
+    padding: 14px 15px;
+
+}
+
+input[type="email"], input[type="password"],input[type="date"], select {
+    width: 230px;
+    height: 50px;
+}
+fieldset {
+   width: 100%;
+   padding: 30px 15px;
+}
+textarea {
+    width: 100%;
+    min-height: 80px;
+    resize: none;
+}
+form .button {
+    width: 100%;
+   
 }
 
     
-
+    
+    
+   
+    

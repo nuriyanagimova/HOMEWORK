@@ -70,15 +70,15 @@ button {
 }
 
 .text {
-    
-    
-    
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    
     color: #95a1bb;
+    
 }
+    
+    
+    
     
 .rates-section {
    background-color:#f9fafc ; 
@@ -98,7 +98,7 @@ th, td {
 }
     
 
-}
+
 
 .table-title {
     color: #363940;
@@ -223,9 +223,10 @@ input[type="email"], input[type="password"],input[type="date"], select {
     height: 50px;
 }
 fieldset {
-   width: 100%;
-   padding: 30px 15px;
+    width: 100%;
+    padding: 30px 15px;
 }
+
 textarea {
     width: 100%;
     min-height: 80px;
@@ -233,10 +234,25 @@ textarea {
 }
 form .button {
     width: 100%;
-   
 }
-
+select  {
+    background: url(./assets/images/Arrow.svg) no-repeat right 15px center;
+    appearance: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url(./assets/images/Calendar\(1\).svg) no-repeat;
     
+}
+footer {
+    background-color: #0a61f7;
+    text-align: center;
+    padding: 20px 0;
+
+}
+   
+
+   
+   
     
     
    

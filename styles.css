@@ -146,7 +146,7 @@ th, td {
     padding: 30px 0;
 }
 .create-account-section {
-   padding: 100px 0;
+    padding: 100px 0;
 }
 .list-item {
     list-style-image: url(../assets/images/Check.svg);
@@ -236,24 +236,14 @@ form .button {
     width: 100%;
 }
 select  {
-    background: url(./assets/images/Arrow.svg) no-repeat right 15px center;
+    background-image: url(../assets/images/Arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
     appearance: none;
 }
-input[type="date"]::-webkit-calendar-picker-indicator {
-    background: url(./assets/images/Calendar\(1\).svg) no-repeat;
-    
-}
+
 footer {
     background-color: #0a61f7;
     text-align: center;
     padding: 20px 0;
-
 }
-   
-
-   
-   
-    
-    
-   
-    

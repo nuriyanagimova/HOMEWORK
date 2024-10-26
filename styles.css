@@ -25,6 +25,22 @@ button {
     background-color:#0a61f7 ;
     padding: 14px 0 ;
 }
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* тандартные стили для контейнера*/
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1170px  /* 1140 + padding 15*2 */;
+    padding: 0 15px; /* отступы жля мобильного */
+    margin-left: auto; /* центрируем контент */
+    margin-right: auto; /* центрируем контент */    
+    border: 1px solid red; /* для проверки */
+}
    
 .nav {
     font-weight: 500;
@@ -33,7 +49,33 @@ button {
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: #fff;
+    display: flex;
+    gap: 24px;
 }
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+
+.main-img {
+    align-self: flex-end; 
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px; /* для фото*/ 
+}
+
+.main .text {
+    margin-bottom: 40px;
+    max-width: 380px;
+}
+
+
 .main-title{
     color: #363940;
     font-weight: 500;
@@ -73,16 +115,21 @@ button {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #95a1bb;
-    
+    color: #95a1bb;    
 }
     
     
     
     
 .rates-section {
-   background-color:#f9fafc ; 
-   padding: 100px 0;
+    background-color:#f9fafc ; 
+    padding: 100px 0;
+}
+
+.rates-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
     
 

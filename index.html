@@ -49,8 +49,8 @@
             <div class="container">
                 <div class="rates-wrapper">
                     <h2 class="title">Rates</h2>
-                <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
-                <table class="table">
+                    <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
+                    <table class="table">
                     <tr>
                         <th class="table-subtitle gray">Features</th>
                         <th class="table-title">Standart</th>
@@ -87,79 +87,106 @@
                         <td><button class="table-button">GET NOW</button>
                         </td>
                     </tr>
-                </table>
+                    </table>
+                </div>
 
-            </div>
             
+            </div>
+        </section>
         
-        </div>
-    </section>
 
         <section class="create-account-section">
             <div class="container">
-                <h2 class="title">Create your free account</h2>
-            <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.</p>
-            <ul class="list">
-                <li class="list-item">Easy setup, fast start</li>
-                <li class="list-item">Free forever for core features</li>
-                <li class="list-item">14-day trial of premium features</li>
-            </ul>
-                
-
-            
-            <form>
+                <div class="account-wrapper">
+                    <div class="account-info-wrapper">
+                        <h2 class="title">Create your free account</h2>
+                        <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.</p>
+                        <ul class="list">
+                            <li class="list-item">Easy setup, fast start</li>
+                            <li class="list-item">Free forever for core features</li>
+                            <li class="list-item">14-day trial of premium features</li>
+                        </ul>
+                    </div>
+                 
                     
-                    <input id="userFullName" type="text" name="" placeholder="Full Name*">
-                    <input id="userEmail" type="text" name="email" placeholder="Email*">
-                    <input id="userPassword" type="text" name="password" placeholder="Password*">
-                    <input id="userDateBirth" type="number" name="dateBirth" placeholder="Date of Birth">
-                
-                
-                    <select>
-                        <option selected disabled>Country</option>
-                        <option value="France">France</option>
-                        <option value="Japon">Japon</option>
-                        <option value="Italie">Italie</option>
-                    </select>
+    
+                    <form>
+                        <!-- посмотреть div name wrapper div select wrapper-->
+                        <input type="text" id="userFullName" placeholder="Full Name*">
+                        <div class="fields-wrapper">
+                            <div class="name-wrapper">
+                                <input id="userEmail" type="text" name="email" placeholder="Email*">
+                                <input id="userPassword" type="text" name="password" placeholder="Password*">
+                            </div>
+                            <div class="select-wrapper">
+                                <input id="userDateBirth" type="number" name="dateBirth" placeholder="Date of Birth">
+                            
+                            <select>
+                                <option selected disabled>Country</option>
+                                <option value="France">France</option>
+                                <option value="Japon">Japon</option>
+                                <option value="Italie">Italie</option>
+                            </select>
+                            </div>
+                            
+                        </div>
+                            
                     
-                    <div>
-                    <label for="front">
-                        <input id="front" type="radio" name="techno">
-                        FRONTEND
-                    </label>
-                    <label for="back">
-                        <input id="back" type="radio" name="techno">
-                        BACKEND
-                    </label>
-                </div>
-
-                    <fieldset>
-                        <legend>Favorite Technologies</legend>
-                        <label for="html">
-                            <input id="html" type="checkbox" name="html">
-                            HTML
-                        </label>
-                        <label for="css">
-                            <input id="css" type="checkbox" name="css">
-                            CSS
-                        </label>
-                        <label for="react">
-                            <input id="react"  type="checkbox" name="react">
-                            React
-                        </label>
-                        <label for="components">
-                            <input id="components" type="checkbox" name="components">
-                            Styled componets
-                        </label>
+                
+                            
+        
                         
-                    </fieldset>
                     
-                    <textarea  placeholder="Something else about you"></textarea>
-                    <input type="submit" class="button" value="registratiion">
-                </form>
+                    
+                        
+                        
+                        <div class="stack">
+                        <label for="front">
+                            <input id="front" type="radio" name="techno">
+                            FRONTEND
+                        </label>
+                        <label for="back">
+                            <input id="back" type="radio" name="techno">
+                            BACKEND
+                        </label>
+                    </div>
+    
+                        <fieldset>
+                            <legend>Favorite Technologies</legend>
+                            <label for="html">
+                                <input id="html" type="checkbox" name="html">
+                                HTML
+                            </label>
+                            <label for="css">
+                                <input id="css" type="checkbox" name="css">
+                                CSS
+                            </label>
+                            <label for="react">
+                                <input id="react"  type="checkbox" name="react">
+                                React
+                            </label>
+                            <label for="components">
+                                <input id="components" type="checkbox" name="components">
+                                Styled componets
+                            </label>
+                            
+                        </fieldset>
+                        
+                        <textarea  placeholder="Something else about you"></textarea>
+                        <button class="button" type="submit">registration</button>
+                        <!-- <input type="submit" class="button" value="registratiion"> -->
+                    </form>
+                </div>
             </div>
+        </section>   
+                
+
+               
             
-            </section>        
+            
+            
+    
+    
             <footer>
                 <span>Copyright © 2023. All rights reserved.</span>
                 

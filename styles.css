@@ -320,18 +320,7 @@ input, select, fieldset, textarea {
     gap : 20px;
 
 }
-/*!*/
-.name-wrapper {
-    display: flex;
-    gap: 20px;
-    /* width: 100%; */
-}
-/*!*/
-.select-wrapper {
-    display: flex;
-    gap: 20px;
-    /* width: 100%; */
-}
+
 
 fieldset {
     width: 100%;

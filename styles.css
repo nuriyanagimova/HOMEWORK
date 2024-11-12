@@ -7,6 +7,7 @@
 /* обьявили шрифт общий для html и body*/
 html, body {
     font-family: 'Rubik', sans-serif;
+    min-width: 375px;
 }
 /* Убираем стандартные стили у ссылок Также уберем подчеркивание для всех ссылок, уберем маркеры у всех маркированных списков и уберем фон и границу у всех кнопок: */
 a {
@@ -41,7 +42,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
 }
-/* тандартные стили для контейнера*/
+/*  стандартные стили для контейнера*/
 .container {
     height: 100%;
     width: 100%;
@@ -63,21 +64,25 @@ button:hover {
     gap: 24px;
 }
 
-.main-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items:  center;
+.menu-icon {
+    display: none;
 }
+
+
 
 .main-img {
     align-self: flex-end; 
+    max-width: flex-end;
+    max-width: 656px;
+    width: 100%;
 }
 
 .main-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px; /* для фото*/ 
+    min-height: 880px; /* для фото*/ 
+    
 }
 
 .main .text {
@@ -142,10 +147,24 @@ button:hover {
     align-items: center;
 }
     
+.rates-section .title {
+    margin-bottom: 20px;
+}
+
+.rates-section .text {
+    margin-bottom: 40px;
+    text-align: center;
+}
 
 .table {
     border-collapse: collapse ;
 }
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+
 th, td {
     border: 1px solid #95a1bb;/* Границы таблицы*/
     padding: 15px 0; /*Отступы внутри ячейки*/
@@ -229,17 +248,9 @@ th, td {
     align-items: center;
 }
 
-.rates-section .title {
-    margin-bottom: 20px;
-}
 
-.rates-section .title {
-    margin-bottom: 20px;
-}
 
-.rates-section .text {
-    margin-bottom: 40px;
-}
+
 
 
 
@@ -357,3 +368,76 @@ span {
     line-height: 22px;
     color:#FFF;
 }
+
+/*  Стили для плaншета */
+    @media screen  and (max-width: 1400px) {
+        .main-wrapper {
+        flex-direction: column;
+        min-height: auto;
+    };
+    .main-info {
+        align-self:flex-start;
+        margin: 100px 0 80px;
+
+    }
+    .main-img {
+        align-self:center ;
+        width: 400px;
+        height: 400px; 
+    }
+    .table {
+        width: 940px;
+    }
+    .table-wrapper {
+        overflow-x: auto;
+        width: 100%;
+        max-width: 940px;
+    }
+    .account-wrapper {
+        flex-direction: column;
+        gap: 70px;
+    }
+    .create-account-section .text {
+        max-width: unset;
+    }
+    form {
+        align-self: center;
+    }
+    .button {
+        margin-bottom: 30px;
+    }
+        
+}   
+
+   /*  Адаптатив для мобильника */ 
+
+    @media screen  and (max-width: 576px) {
+    .nav { 
+        display: none;
+
+    }
+    .menu-icon {
+        display: block;
+    }
+    .main-info {
+        margin: 60px 0;
+    }
+    .main-title {
+        font-size: 52px;
+        line-height: 60px;
+    }
+    .account-wrapper {
+        gap: 60px;
+    }
+    label {
+        white-space: nowrap;
+    } 
+    fieldset {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    } 
+}
+    
+
+
+
